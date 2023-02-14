@@ -127,6 +127,11 @@
     display: none;
   }
 
+  .menu-lista-responsiva {
+    padding: 10px;
+    border: 1px solid red;
+  }
+
   .span-1::after {
     content: "";
     display: block;
