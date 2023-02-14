@@ -8,6 +8,7 @@
   background: var(--cor-1);
   color: var(--cor-3);
   position: relative;
+  
   /* text-transform: uppercase; */ /* ATIVAR DEPOIS*/
 }
 
@@ -154,7 +155,6 @@
   .aparecer {
     display: block;
     width: 100px;
-    margin-left: 60px;
     padding-left: 50px;
   }
 
