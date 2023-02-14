@@ -9,7 +9,7 @@
   color: var(--cor-3);
   position: relative;
   max-width: 100%;
-  
+
   /* text-transform: uppercase; */ /* ATIVAR DEPOIS*/
 }
 
@@ -81,17 +81,11 @@
 }
 
 .lista-login span::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 2px;
   height: 30px;
   background: var(--cor-2);
-}
-
-.nav-content .div-1:hover::after,
-.nav-content .div-2:hover::after,
-.nav-content .div-3:hover::after{
-  box-shadow: 1px 1px 10px var(--cor-2);
 }
 
 /* Animation Rotate */
@@ -124,7 +118,7 @@
 }
 
 /* Responsividade */
-@media(max-width: 800px) {
+@media (max-width: 800px) {
   .lista-header-primaria .sobre {
     display: none;
   }
@@ -133,58 +127,52 @@
     display: none;
   }
 
-  .nav-content .div-1::after{
-    content: '';
+  .span-1::after {
+    content: "";
     display: block;
     width: 20px;
-    height: 2px;
-    background: red;
-    border: 1px solid transparent;
+    height: 3px;
+    background: var(--cor-2);
   }
 
-  .nav-content .div-2::after{
-    content: '';
+  .span-2::after {
+    content: "";
     display: block;
     width: 20px;
-    height: 2px;
+    height: 3px;
     margin-top: 4px;
-    background: red;
-    border: 1px solid transparent;
-    
+    background: var(--cor-2);
   }
 
-  .nav-content .div-3::after{
-    content: '';
+  .span-3::after {
+    content: "";
     display: block;
     width: 20px;
-    height: 2px;
+    height: 3px;
     margin-top: 4px;
-    background: red;
-    border: 1px solid transparent;
-
+    background: var(--cor-2);
   }
-  
-
 }
-@media(max-width: 900px) {
+@media (max-width: 900px) {
   .lista-header-primaria .noticia {
     display: none;
   }
 }
-@media(max-width: 1000px){
-  .lista-header-primaria .suporte{
-    display: none;
-  }
-}
-@media(max-width: 1100px) {
-  .lista-header-primaria .social{
+
+@media (max-width: 1000px) {
+  .lista-header-primaria .suporte {
     display: none;
   }
 }
 
-@media(max-width: 1200px) {
-  .lista-header-primaria .midia{
+@media (max-width: 1100px) {
+  .lista-header-primaria .social {
     display: none;
   }
 }
 
+@media (max-width: 1200px) {
+  .lista-header-primaria .midia {
+    display: none;
+  }
+}
