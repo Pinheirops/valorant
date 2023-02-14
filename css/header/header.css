@@ -8,6 +8,7 @@
   background: var(--cor-1);
   color: var(--cor-3);
   position: relative;
+  max-width: 100%;
   
   /* text-transform: uppercase; */ /* ATIVAR DEPOIS*/
 }
@@ -87,6 +88,12 @@
   background: var(--cor-2);
 }
 
+.nav-content .div-1:hover::after,
+.nav-content .div-2:hover::after,
+.nav-content .div-3:hover::after{
+  box-shadow: 1px 1px 10px var(--cor-2);
+}
+
 /* Animation Rotate */
 
 .logar:hover::before {
@@ -126,9 +133,37 @@
     display: none;
   }
 
-  .header-logo {
-    margin: auto;
+  .nav-content .div-1::after{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: red;
+    border: 1px solid transparent;
   }
+
+  .nav-content .div-2::after{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin-top: 4px;
+    background: red;
+    border: 1px solid transparent;
+    
+  }
+
+  .nav-content .div-3::after{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin-top: 4px;
+    background: red;
+    border: 1px solid transparent;
+
+  }
+  
 
 }
 @media(max-width: 900px) {
