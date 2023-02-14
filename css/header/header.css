@@ -42,10 +42,6 @@
   overflow: hidden;
 }
 
-.aparecer {
-  display: none;
-}
-
 .lista-login {
   gap: 20px;
 }
@@ -126,6 +122,14 @@
     display: none;
   }
 
+  .lista-header-secundaria {
+    display: none;
+  }
+
+  .header-logo {
+    margin: auto;
+  }
+
 }
 @media(max-width: 900px) {
   .lista-header-primaria .noticia {
@@ -147,23 +151,5 @@
   .lista-header-primaria .midia{
     display: none;
   }
-}
-
-
-@media(max-width: 800px) {
-
-  .aparecer {
-    display: block;
-    width: 100px;
-    padding-left: 50px;
-  }
-
- 
-
-
-  .lista-header-secundaria {
-    display: none;
-  }
-
 }
 
