@@ -7,10 +7,10 @@
   padding: 25px 40px;
   background: var(--cor-1);
   color: var(--cor-3);
-  position: relative;
   max-width: 100%;
-
-  /* text-transform: uppercase; */ /* ATIVAR DEPOIS*/
+  font-family: "Kanit", sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
 }
 
 .header-logo {
