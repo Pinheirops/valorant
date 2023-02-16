@@ -1,16 +1,22 @@
 /* Estilo */
 
+.header-content-bg{
+  background-color: var(--cor-1);
+  border-bottom: 3px solid rgba(37, 37, 37, 0.432)
+}
+
 .header-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 1650px;
   padding: 25px 40px;
   background: var(--cor-1);
   color: var(--cor-3);
-  max-width: 100%;
+  text-transform: uppercase;
   font-family: "Kanit", sans-serif;
   font-size: 1.2rem;
-  text-transform: uppercase;
+  margin: auto;
 }
 
 .header-logo {
