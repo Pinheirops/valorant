@@ -2,54 +2,65 @@
   background: var(--cor-1);
 }
 
-.main-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
-  margin: auto;
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   max-width: 1440px;
-  max-height: 900px;
-  background-color: var(--cor-3);
-  padding: 40px 0px 0px 60px;
-  box-shadow: inset -310px 0px var(--cor-1) ;
+  margin: auto;
 }
 
-.main-container h1{
-  color: var(--cor-2);
-  font-size: 5rem;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  letter-spacing: 15px;
-  text-transform: uppercase;
-  padding: 30px 0px;
+video{
+  max-width: 100%;
 }
 
-.main-container p {
-  grid-column: 1;
-  width: 28ch;
-  font-size: 1.5rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  align-self: start;
-  padding: 30px 0px 0px 30px;
+.texto-main{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 50px;
+  gap: 10px;
 }
 
-
-.lista-agentes {
+.main-container img{
+  height: 100px;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+.texto-main p{
+  font-size: 1.3rem;
   text-align: center;
-  list-style: none;
-  font-size: 3rem;
-  font-family: valorant;
-  text-transform: uppercase;
-  align-self: start;
-  padding: 30px 0px 0px 30px;
 }
 
-.lista-agentes li + li{
-  margin-top: 60px;
+.texto-main a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 5px 30px;
+  border: 3px solid;
+  font-size: 2rem;
+  position: relative;
 }
 
-.ativo{
-  color: var(--cor-2);
+.texto-main a::after{
+  content: '';
+  width: 50px;
+  height: 3px;
+  background: white;
+  position: absolute;
+  left: 160px;
+  top: 20px;
 }
 
-.fade{
-  color: rgba(0, 0, 0, 0.205);
+.texto-main a::before{
+  content: '';
+  width: 50px;
+  height: 3px;
+  background: white;
+  position: absolute;
+  left: -70px;
+  top: 20px;
 }
