@@ -35,6 +35,10 @@ video {
   text-align: center;
 }
 
+.pc-only{
+  display: none;
+}
+
 .btn-container {
   position: absolute;
   top: 95%;
@@ -76,7 +80,38 @@ video {
 
 
 @media(max-width:800px){
-  body{
-    background: black;
+  .texto-main{
+    gap: 0px;
+    padding: 70px;
+    margin: 0px;
+  }
+
+  .texto-main p{
+    font-size: .9rem;
+  }
+
+  .texto-main .btn1{
+    display: none;
+  }
+
+  .pc-only{
+    display: block;
   }
 }
+
+@media(max-width:400px){
+    
+    .texto-main{
+      gap: 5px;
+      padding: 20px;
+    }
+
+    .texto-main img{
+      margin: 0px;
+      height: 50px;
+    }
+
+    .texto-main p{
+      font-size: .8rem;
+    }
+  }
