@@ -4,3 +4,7 @@
  --cor-3:#e9f2f9;
 }
 
+:root{
+  --font-list: 'Kanit', sans-serif;
+  --font-titulo: 'Tilt Warp', cursive;
+}

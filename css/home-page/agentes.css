@@ -1,0 +1,123 @@
+.agente-container-bg {
+  background-color: var(--cor-1);
+}
+
+.agente-content {
+  max-width: 1440px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: linear-gradient(to right, var(--cor-3) 72%, rgb(21, 22, 20) 72%);
+  border-right: 1px solid var(--cor-2);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.agente-content h1 {
+  font-size: 6rem;
+  font-family: var(--font-titulo);
+  font-weight: bolder;
+  text-transform: uppercase;
+  justify-self: center;
+  color: var(--cor-1);
+  letter-spacing: 10px;
+  grid-column: 1 / 2;
+}
+
+.agentes-box {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  align-items: center;
+  grid-column: 1 / 3;
+}
+
+.agente p {
+  font-family: var(--font-titulo);
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.agente-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.agente-icon img {
+  background-color: var(--cor-1);
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+.agente {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  opacity: 80%;
+  color: var(--cor-1);
+}
+
+
+.agente.ativo {
+  color: var(--cor-2);
+  padding-left: 30px;
+  opacity: 100%;
+}
+
+.agente.fading {
+  color: var(--cor-1);
+  padding-right: 20px;
+  opacity: 60%;
+}
+
+.agente-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.agente-detalhe h3 {
+  font-size: 1.1rem;
+  color: rgb(224, 63, 63);
+  text-transform: uppercase;
+  font-family: "valorant", sans-serif;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.agente-detalhe .agente-funcao {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+
+.agente-funcao img {
+  max-width: 13%;
+}
+
+.agente-detalhe .function {
+  font-size: 1.8rem;
+  font-weight: bolder;
+  font-family: var(--font-list);
+  color: var(--cor-3);
+  text-transform: uppercase;
+  font-family: var(--font-titulo);
+  align-self: center;
+}
+
+.agente-detalhe .biografia {
+  max-width: 25ch;
+  font-size: 1.2rem;
+  color: var(--cor-3);
+  font-family: var(--font-list);
+}
+
+.agente-detalhe h3::before {
+  content: "//";
+  display: block;
+}

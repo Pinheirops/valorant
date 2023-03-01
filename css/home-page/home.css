@@ -9,6 +9,7 @@
   justify-content: center;
   max-width: 1440px;
   margin: auto;
+  border-right: 1px solid var(--cor-3);
 }
 
 video {
