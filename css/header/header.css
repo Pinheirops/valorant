@@ -1,8 +1,8 @@
 /* Estilo */
 
-.header-content-bg{
+.header-content-bg {
   background-color: var(--cor-1);
-  border-bottom: 3px solid rgba(37, 37, 37, 0.432)
+  border-bottom: 3px solid rgba(37, 37, 37, 0.432);
 }
 
 .header-content {
