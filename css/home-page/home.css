@@ -79,6 +79,7 @@ video {
   width: 100%;
 }
 
+/* RESPONSIVO */
 
 @media(max-width:800px){
   .texto-main{
