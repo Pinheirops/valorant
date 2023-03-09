@@ -35,9 +35,10 @@
 }
 
 .agente p {
-  font-family: "valorant", sans-serif;
+  font-family: 'valorant', sans-serif;
   font-size: 3rem;
   text-transform: uppercase;
+  font-weight: bolder;
   position: relative;
 }
 
@@ -360,6 +361,10 @@
 
   .agente{
     color: var(--cor-3);
+  }
+
+  .agente.ativo {
+    letter-spacing: 0px;
   }
 
   .agente.fading {
