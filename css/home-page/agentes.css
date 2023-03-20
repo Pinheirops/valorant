@@ -10,6 +10,8 @@
   padding-bottom: 20px;
   background: linear-gradient(to right, var(--cor-3) 72%, rgb(21, 22, 20) 72%);
   border-right: 1px solid var(--cor-2);
+  border-left: 2px solid var(--cor-2);
+  box-shadow: 0px 5px 5px black;
   display: grid;
   grid-template-columns: 1fr 1fr;
   position: relative;
@@ -35,7 +37,7 @@
 }
 
 .agente p {
-  font-family: 'valorant', sans-serif;
+  font-family: "valorant", sans-serif;
   font-size: 3rem;
   text-transform: uppercase;
   font-weight: bolder;
@@ -113,7 +115,6 @@
 .agente-detalhe .function {
   font-size: 1.8rem;
   font-weight: bolder;
-  font-family: var(--font-list);
   color: var(--cor-3);
   text-transform: uppercase;
   font-family: var(--font-titulo);
@@ -130,7 +131,7 @@
 }
 
 .visualizar,
-.text-visualizar{
+.text-visualizar {
   display: none;
 }
 
@@ -291,7 +292,6 @@
 }
 
 @media (max-width: 1100px) {
-
   .agente-content h1 {
     font-size: 3rem;
   }
@@ -313,18 +313,18 @@
     gap: 20px;
   }
 
-  .agente-display .viper-img{
+  .agente-display .viper-img {
     max-width: 50%;
     justify-self: center;
     align-self: center;
   }
-  
-  .agente-detalhe{
+
+  .agente-detalhe {
     padding-right: 10px;
   }
 
-  .agente-detalhe h3{
-    font-size: .9rem;
+  .agente-detalhe h3 {
+    font-size: 0.9rem;
   }
 
   .agente-detalhe .function {
@@ -335,17 +335,17 @@
     max-width: 8%;
   }
 
-  .agente-detalhe .biografia{
+  .agente-detalhe .biografia {
     font-size: 1rem;
   }
 }
 
-@media(max-width: 670px) {
-  .agente-content{
+@media (max-width: 670px) {
+  .agente-content {
     background: rgb(21, 22, 20);
   }
 
-  .agente-content h1{
+  .agente-content h1 {
     font-size: 2rem;
     justify-self: center;
     padding-bottom: 30px;
@@ -353,13 +353,13 @@
     color: var(--cor-3);
   }
 
-  .agente-icon{
+  .agente-icon {
     justify-content: center;
     align-items: center;
     padding-bottom: 0px;
   }
 
-  .agente{
+  .agente {
     color: var(--cor-3);
   }
 
@@ -368,47 +368,47 @@
   }
 
   .agente.fading {
-   max-width: 10%;
-   margin-bottom: 20px;
+    max-width: 10%;
+    margin-bottom: 20px;
   }
 
-  .agente.fading p{
+  .agente.fading p {
     display: none;
   }
 
-  .agente.next{
+  .agente.next {
     max-width: 17%;
   }
 
-  .agente-detalhe{
+  .agente-detalhe {
     display: none;
   }
 
-  .agente-display{
+  .agente-display {
     grid-template-columns: 1fr;
     padding: 20px;
   }
 
-  .agente-display .viper-img{
+  .agente-display .viper-img {
     max-width: 40%;
   }
 
   .agente-detalhe .biografia,
-  .agente-detalhe .biografia-titulo{
+  .agente-detalhe .biografia-titulo {
     display: none;
   }
 
-  .agente-detalhe .function{
+  .agente-detalhe .function {
     font-size: 1rem;
   }
-  
-  .visualizar{
+
+  .visualizar {
     display: flex;
     justify-content: center;
     position: relative;
   }
 
-  .text-visualizar{
+  .text-visualizar {
     display: block;
     padding: 10px;
     border: 1px solid var(--cor-3);
@@ -420,8 +420,8 @@
 
   /* DETALHES MOBILE */
 
-  .visualizar::before{
-    content: '';
+  .visualizar::before {
+    content: "";
     width: 10px;
     height: 10px;
     left: 104px;
@@ -431,8 +431,8 @@
     z-index: 1;
   }
 
-  .visualizar::after{
-    content: '';
+  .visualizar::after {
+    content: "";
     width: 10px;
     height: 10px;
     right: 104px;

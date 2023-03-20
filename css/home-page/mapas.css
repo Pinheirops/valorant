@@ -1,0 +1,74 @@
+.mapa-container-bg {
+  background-color: var(--cor-1);
+  position: relative;
+  
+}
+
+.mapa-content {
+  max-width: 1440px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: var(--cor-1);
+  border-right: 1px solid var(--cor-2);
+  box-shadow: 0px 5px 5px black;
+  border-right: 1px solid var(--cor-3);
+  border-left: 2px solid var(--cor-3);
+  display: grid;
+}
+
+.mapa-titulo {
+  font-size: 6rem;
+  font-family: var(--font-titulo), sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: var(--cor-3);
+  justify-self: end;
+  letter-spacing: 12px;
+}
+
+.mapa-text {
+  justify-self: end;
+  text-align: right;
+}
+
+.mapa-text h3{
+  color: var(--cor-2);
+  font-family: var(--font-titulo);
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+.mapa-text p {
+  color: var(--cor-3);
+  max-width: 40ch;
+  font-family: var(--font-list);
+  font-size: 1.2rem;
+}
+
+.mapa-imagem{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.escolhido {
+  justify-self: center;
+}
+
+.escolhido img{
+  margin-left: 100px;
+  margin-top: 30px;
+  max-width: 80%;
+}
+
+.largados{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+}
+
+.largados img{
+  max-width: 20%;
+}
