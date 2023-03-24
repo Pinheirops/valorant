@@ -1,7 +1,6 @@
 .mapa-container-bg {
   background-color: var(--cor-1);
   position: relative;
-  
 }
 
 .mapa-content {
@@ -13,7 +12,7 @@
   border-right: 1px solid var(--cor-2);
   box-shadow: 0px 5px 5px black;
   border-right: 1px solid var(--cor-3);
-  border-left: 2px solid var(--cor-3);
+  border-left: 1px solid var(--cor-3);
   display: grid;
 }
 
@@ -23,16 +22,16 @@
   font-weight: bolder;
   text-transform: uppercase;
   color: var(--cor-3);
-  justify-self: end;
+  justify-self: center;
   letter-spacing: 12px;
 }
 
 .mapa-text {
-  justify-self: end;
-  text-align: right;
+  justify-self: center;
+  text-align: center;
 }
 
-.mapa-text h3{
+.mapa-text h3 {
   color: var(--cor-2);
   font-family: var(--font-titulo);
   font-weight: 400;
@@ -46,29 +45,69 @@
   font-size: 1.2rem;
 }
 
-.mapa-imagem{
+.mapa-imagem {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
 }
 
-.escolhido {
-  justify-self: center;
+.mapa-select {
+  display: flex;
+  justify-self: space-between;
+  align-items: center;
+  gap: 20px;
 }
 
-.escolhido img{
+.mapa-select img {
   margin-left: 100px;
   margin-top: 30px;
   max-width: 80%;
+  padding: 10px;
+  border: 1px solid white;
+}
+.mapa-select-text {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 30px;
+  padding-top: 24px;
 }
 
-.largados{
+.mapa-select-text .mapa-sobre {
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  padding: 10px 40px;
+  align-self: center;
+  justify-self: center;
+  text-transform: uppercase;
+  transition: 1.5s all ease;
+}
+
+.mapa-select-text .mapa-nome {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 1.5s all ease;
+  font-family: var(--font-titulo);
+}
+
+.largados {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 10px 20px;
+  padding: 30px;
+  gap: 15px 25px;
 }
 
-.largados img{
-  max-width: 20%;
+.largados img {
+  max-width: 100%;
+}
+
+.largados div{
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-family: var(--font-list);
 }
