@@ -58,7 +58,6 @@
   border: 1px solid;
   border-radius: 50%;
   box-shadow: 1px 1px 10px black;
-
 }
 
 .agente {
@@ -292,6 +291,11 @@
 
   .img-skill {
     margin: 0px;
+    max-width: 20%;
+  }
+
+  .agente-funcao img{
+    max-width: 10%;
   }
 }
 
@@ -350,12 +354,11 @@
   }
 
   .agente-content h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     justify-self: center;
     padding-bottom: 30px;
     padding-left: 0px;
     color: var(--cor-3);
-    
   }
 
   .agente-icon {

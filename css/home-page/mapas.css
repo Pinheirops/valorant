@@ -112,7 +112,7 @@
   box-shadow: 1px 1px 10px black;
 }
 
-.mapa-list{
+.mapa-list {
   text-align: center;
   color: white;
   text-transform: uppercase;
@@ -120,24 +120,26 @@
   z-index: 3;
 }
 
+.mapa-list p {
+  display: none;
+}
+
 .animation,
-.transitor{
+.transitor {
   position: relative;
 }
 
-.icebox{
+.icebox {
   grid-column: 2;
 }
 
-.lotus{
+.lotus {
   grid-column: 3;
 }
 
+/* DETALHE */
 
-
- /* DETALHE */
-
- .mapa-content::before {
+.mapa-content::before {
   content: "";
   position: absolute;
   width: 2px;
@@ -172,7 +174,7 @@
   z-index: 1;
 }
 
-.mapa-content h3::after{
+.mapa-content h3::after {
   content: "";
   position: absolute;
   width: 20px;
@@ -184,18 +186,17 @@
   z-index: 1;
 }
 
-
 /* ANIMAÇÃO MAPAS */
 
-.animation::before{
-  content: '';
+.animation::before {
+  content: "";
   position: absolute;
   width: 101%;
   height: 86%;
   background-color: rgba(0, 0, 0, 0);
 }
 
-.animation:hover::before{
+.animation:hover::before {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -207,35 +208,118 @@
   width: 100%;
   height: 96%;
   background-color: rgba(0, 0, 0, 0.596);
-  transition: .9s;
+  transition: 0.9s;
 }
 
-.transitor::before{
-  content: '';
+.transitor::before {
+  content: "";
   position: absolute;
   width: 100px;
   height: 30px;
   top: 40%;
   left: 35%;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(255, 0, 0, 0);
 }
 
-.icebox:hover::before{
-  content: 'icebox';
+.icebox:hover::before {
+  content: "icebox";
 }
-.split:hover::before{
-  content: 'split';
+.split:hover::before {
+  content: "split";
 }
-.bind:hover::before{
-  content: 'bind';
+.bind:hover::before {
+  content: "bind";
 }
-.haven:hover::before{
-  content: 'haven';
+.haven:hover::before {
+  content: "haven";
 }
-.fracture:hover::before{
-  content: 'fracture';
+.fracture:hover::before {
+  content: "fracture";
 }
-.lotus:hover::before{
-  content: 'lotus';
+.lotus:hover::before {
+  content: "lotus";
 }
 
+/* RESPONSIVO */
+
+@media (max-width: 1500px) {
+  .mapa-content h3::before,
+  .mapa-content h3::after,
+  .mapa-content::before,
+  .mapa-content h1::after {
+    display: none;
+  }
+
+  .mapa-select {
+    flex-direction: column;
+    gap: 0px;
+    position: relative;
+  }
+
+  .mapa-select img {
+    margin: 30px 0px 0px 0px;
+  }
+
+  .mapa-select-text {
+    padding-top: 5px;
+    gap: 0px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .transitor::before {
+    top: 35%;
+    left: 25%;
+  }
+
+  .mapa-select-text .mapa-nome {
+    font-size: 2rem;
+  }
+  .mapa-select-text .mapa-sobre {
+    font-size: 1rem;
+    padding: 5px 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .animation::before,
+  .transitor::before,
+  .animation:hover::before {
+    display: none;
+  }
+
+  .mapa-list p {
+    display: block;
+    font-size: 0.8rem;
+  }
+
+  .fracture {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .mapa-list {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding-top: 10px;
+  }
+
+  .mapa-select img {
+    margin: 10px 0px 0px 0px;
+  }
+}
+
+@media(max-width: 670px){
+  .mapa-titulo{
+    font-size: 3rem;
+  }
+
+  .mapa-text h3{
+    font-size: 1.3rem;
+  }
+
+  .mapa-text p{
+    font-size: 1rem;
+    padding: 10px 30px;
+  }
+}
