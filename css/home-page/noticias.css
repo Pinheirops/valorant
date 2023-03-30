@@ -188,6 +188,7 @@
   }
 
   .noticias-text {
-    padding-right: 0px;
+    padding: 0px 30px;
+    align-items: start;
   }
 }
