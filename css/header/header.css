@@ -39,6 +39,12 @@
   position: relative;
 }
 
+.lista-header-primaria a{
+  color: var(--cor-3);
+  
+}
+
+
 .lista-header-primaria .mais {
   display: none;
   gap: 6px;
@@ -66,6 +72,10 @@
 .lista-login {
   gap: 20px;
   padding: 20px;
+}
+
+.lista-login a{
+  color: var(--cor-3);
 }
 
 .logar li {

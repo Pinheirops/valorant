@@ -30,11 +30,11 @@
   text-align: center;
 }
 
-.mapa-text h3 {
+.mapa-text h2 {
   color: var(--cor-2);
   font-family: var(--font-titulo);
   font-weight: 400;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 }
 
 .mapa-text p {
@@ -62,7 +62,7 @@
   margin-top: 30px;
   max-width: 80%;
   padding: 10px;
-  border: 1px solid white;
+  border: 1px solid var(--cor-3);
   box-shadow: 1px 1px 10px black;
   z-index: 2;
 }
@@ -76,7 +76,7 @@
 }
 
 .mapa-select-text .mapa-sobre {
-  color: white;
+  color: var(--cor-3);
   font-size: 1.3rem;
   text-decoration: none;
   border: 1px solid #ffffff;
@@ -88,7 +88,7 @@
 }
 
 .mapa-select-text .mapa-nome {
-  color: white;
+  color: var(--cor-3);
   font-size: 3rem;
   text-align: center;
   text-transform: uppercase;
@@ -112,10 +112,14 @@
 
 .mapa-list {
   text-align: center;
-  color: white;
+  color: var(--cor-3);
   text-transform: uppercase;
   font-family: var(--font-list);
   z-index: 3;
+}
+
+.mapa-list a{
+  color: var(--cor-3);
 }
 
 .mapa-list p {
@@ -207,6 +211,7 @@
   height: 96%;
   background-color: rgba(0, 0, 0, 0.596);
   transition: 0.9s;
+  cursor: pointer;
 }
 
 .transitor::before {

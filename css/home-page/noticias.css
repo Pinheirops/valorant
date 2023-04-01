@@ -32,7 +32,7 @@
   z-index: 3;
 }
 
-.noticias-text p {
+.noticias-text a {
   font-family: var(--font-list);
   color: rgb(224, 63, 63);
   position: relative;
@@ -69,6 +69,10 @@
   max-width: 25ch;
 }
 
+.noticias-img a{
+  color: var(--cor-3);
+}
+
 /* DETALHES */
 
 .noticia-content::before {
@@ -95,7 +99,7 @@
   z-index: 2;
 }
 
-.noticias-text p::after {
+.noticias-text a::after {
   content: "";
   position: absolute;
   width: 15px;
@@ -103,6 +107,15 @@
   background-color: var(--cor-3);
   right: -20px;
 }
+
+.noticias-text a:hover::after{
+  background-color: var(--cor-2);
+}
+
+.noticias-img a:hover{
+  color: var(--cor-2);
+}
+
 
 /* RESPONSIVO */
 

@@ -19,50 +19,67 @@
 
   <header class="header-content-bg">
     <div class="header-content">
-      <img class="header-logo" src="imagens/Valorant_logo.svg" alt="Valorant logo">
+      <a href=""><img class="header-logo" id="topo" src="imagens/Valorant_logo.svg" alt="Valorant logo"></a>
+
       <nav class="nav-content">
         <ul class="lista-header-primaria">
-          <li class="sobre">Jogar</li>
-          <li class="noticia">Notícias</li>
-          <li class="suporte">Suporte</li>
-          <li class="social">Social</li>
-          <li class="midia">Mídia</li>
+          <li class="sobre"><a href="#">Jogar</a></li>
+          <li class="noticia"><a href="#">Notícias</a></li>
+          <li class="suporte"><a href="#">Suporte</a></li>
+          <li class="social"><a href="#">Social</a></li>
+          <li class="midia"><a href="#">Mídia</a></li>
+
           <div class="mais">
-            <li>Mais</li>
-            <img src="imagens/seta.svg" alt="seta">
+            <li><a href="#">Mais</a></li>
+            <img src="imagens/seta.svg" alt="seta-opção-mais">
           </div>
+
         </ul>
-        <div class="menu-lista-responsiva">
-          <span class="span-1"></span>
-          <span class="span-2"></span>
-          <span class="span-3"></span>
-        </div>
+
+        <a href="#">
+          <div class="menu-lista-responsiva">
+            <span class="span-1"></span>
+            <span class="span-2"></span>
+            <span class="span-3"></span>
+          </div>
+        </a>
+
       </nav>
+
       <div class="lista-header-secundaria">
         <ul class="lista-login">
+
           <div class="logar">
-            <li>Entrar</li>
+            <li><a href="#">Entrar</a></li>
           </div>
+
           <span></span>
+
           <div class="logar">
-            <li>Criar Conta</li>
+            <li><a href="#">Criar Conta</a></li>
           </div>
+
         </ul>
       </div>
     </div>
+
   </header>
 
   <main class="main-container-bg">
     <div class="main-container">
       <video autoplay loop src="imagens/video.mp4"></video>
+
       <div class="texto-main">
         <p>Jogue agora partidas 5x5 desafiadoras com diversos agentes únicos.</p>
-        <img src="imagens/Valorant_logo_main.svg" alt="">
+        <img src="imagens/Valorant_logo_main.svg" alt="Valorant">
+
         <div class="btn-container">
           <a class="btn btn1" href="#">Baixar</a>
         </div>
+
         <p class="pc-only">disponível apenas para PC</p>
       </div>
+
   </main>
 
   <article class="agente-container-bg">
@@ -71,41 +88,58 @@
 
       <div class="agentes-box">
 
-        <div class="agente-icon">
-          <div class="agente fading">
-            <img src="imagens/icon-img/Sage_icon.webp" alt="">
-            <p>Sage</p>
-          </div>
-          <div class="agente next">
-            <img src="imagens/icon-img/Astra_icon.webp" alt="">
-            <p>Astra</p>
-          </div>
-          <div class="agente ativo">
-            <img src="imagens/icon-img/Viper_icon.webp" alt="">
-            <p>Viper</p>
-          </div>
-          <div class="agente next right">
-            <img src="imagens/icon-img/Yoru_icon.webp" alt="">
-            <p>Yoru</p>
-          </div>
-          <div class="agente fading right">
-            <img src="imagens/icon-img/Raze_icon.webp" alt="">
-            <p>Raze</p>
-          </div>
-        </div>
+        <ul class="agente-icon">
+
+          <li class="agente fading">
+            <a class="agente-link" href="#">
+              <img src="imagens/icon-img/Sage_icon.webp" alt="Agente Sage">
+              <p>Sage</p>
+            </a>
+          </li>
+
+          <li class="agente next">
+            <a class="agente-link" href="#">
+              <img src="imagens/icon-img/Astra_icon.webp" alt="Agente Astra">
+              <p>Astra</p>
+            </a>
+          </li>
+
+          <li class="agente">
+            <a class="agente-link ativo" href="#">
+              <img src="imagens/icon-img/Viper_icon.webp" alt="Agente Viper">
+              <p>Viper</p>
+            </a>
+          </li>
+
+          <li class="agente next right">
+            <a class="agente-link" href="#">
+              <img src="imagens/icon-img/Yoru_icon.webp" alt="Agente Yoru">
+              <p>Yoru</p>
+            </a>
+          </li>
+
+          <li class="agente fading right">
+            <a class="agente-link" href="#">
+              <img src="imagens/icon-img/Raze_icon.webp" alt="Agente Raze">
+              <p>Raze</p>
+            </a>
+          </li>
+
+        </ul>
+
 
         <div class="agente-display">
-          <img class="viper-img" src="imagens/agente-img/viper.png" alt="">
+          <img class="viper-img" src="imagens/agente-img/viper.png" alt="Agente Viper corpo todo">
 
           <div class="visualizar">
-            <p class="text-visualizar">Visualizar</p>
+            <a class="text-visualizar" href="">Visualizar</a>
           </div>
 
           <div class="agente-detalhe">
             <h3>Funcao</h3>
             <div class="agente-funcao">
               <p class="function">Controladora</p>
-              <img src="imagens/icon-class/Controller.png" alt="">
+              <img src="imagens/icon-class/Controller.png" alt="icone-controlador">
             </div>
 
             <h3 class="biografia-titulo">Biografia</h3>
@@ -115,19 +149,19 @@
               <h3>Habilidades</h3>
               <div class="skill-img-content">
                 <div class="img-skill">
-                  <img src="imagens/skill-img/viper/1-viper-basic-ability-snake-bite.png" alt="">
+                  <img src="imagens/skill-img/viper/1-viper-basic-ability-snake-bite.png" alt="icone-habilidade-c">
                   <p>c</p>
                 </div>
                 <div class="img-skill">
-                  <img src="imagens/skill-img/viper/2-viper-basic-ability-poison-cloud.png" alt="">
+                  <img src="imagens/skill-img/viper/2-viper-basic-ability-poison-cloud.png" alt="icone-habilidade-q">
                   <p>q</p>
                 </div>
                 <div class="img-skill">
-                  <img src="imagens/skill-img/viper/3-viper-signature-ability-toxic-screen.png" alt="">
+                  <img src="imagens/skill-img/viper/3-viper-signature-ability-toxic-screen.png" alt="icone-habilidade-e">
                   <p>e</p>
                 </div>
                 <div class="img-skill">
-                  <img src="imagens/skill-img/viper/4-viper-ultimate-ability-vipers-pit.png" alt="">
+                  <img src="imagens/skill-img/viper/4-viper-ultimate-ability-vipers-pit.png" alt="icone-habilidade-x">
                   <p>x</p>
                 </div>
 
@@ -146,49 +180,64 @@
       <h1 class="mapa-titulo">Mapas</h1>
 
       <div class="mapa-text">
-        <h3>Batalhe ao redor do mundo</h3>
+        <h2>Batalhe ao redor do mundo</h2>
         <p>Cada mapa serve como um palco para mostrar sua criatividade. Os mapas são feitos sob medida para estratégias de equipe, jogadas espetaculares e momentos eletrizantes. Faça as jogadas que todo mundo vai tentar imitar no futuro!</p>
       </div>
 
       <div class="mapa-imagem">
         <div class="mapa-select">
-          <img src="imagens/mapas-img/ascent.webp" alt="">
+          <img src="imagens/mapas-img/ascent.webp" alt="mapa-selecionado">
 
           <div class="mapa-select-text">
             <p class="mapa-nome">Ascent</p>
-            <p class="mapa-sobre">Sobre</p>
+            <a class="mapa-sobre" href="#">Sobre</a>
           </div>
         </div>
 
         <ul class="mapa-list">
+
           <li class="split animation transitor">
-            <img src="imagens/mapas-img/split.webp" alt="">
-            <p>Split</p>
+            <a href="#">
+              <img src="imagens/mapas-img/split.webp" alt="mapa-split">
+              <p>Split</p>
+            </a>
           </li>
 
           <li class="bind animation transitor">
-            <img src="imagens/mapas-img/bind.webp" alt="">
-            <p>Bind</p>
+            <a href="#">
+              <img src="imagens/mapas-img/bind.webp" alt="mapa-bind">
+              <p>Bind</p>
+            </a>
           </li>
 
           <li class=" haven animation transitor">
-            <img src="imagens/mapas-img/haven.webp" alt="">
-            <p>Haven</p>
+            <a href="#">
+              <img src="imagens/mapas-img/haven.webp" alt="mapa-haven">
+              <p>Haven</p>
+            </a>
           </li>
 
           <li class="fracture animation transitor">
-            <img src="imagens/mapas-img/fracture.webp" alt="">
-            <p>Fracture</p>
+            <a href="#">
+              <img src="imagens/mapas-img/fracture.webp" alt="mapa-fracture">
+              <p>Fracture</p>
+            </a>
           </li>
 
           <li class="icebox animation transitor">
-            <img src="imagens/mapas-img/icebox.webp" alt="">
-            <p>Icebox</p>
+            <a href="#">
+              <img src="imagens/mapas-img/icebox.webp" alt="mapa-icebox">
+              <p>Icebox</p>
+            </a>
           </li>
+
           <li class="lotus animation transitor">
-            <img src="imagens/mapas-img/lotus.webp" alt="">
-            <p>Lotus</p>
+            <a href="#">
+              <img src="imagens/mapas-img/lotus.webp" alt="mapa-lotus">
+              <p>Lotus</p>
+            </a>
           </li>
+
         </ul>
 
       </div>
@@ -197,29 +246,31 @@
   </article>
 
   <article class="noticias-container-bg">
+
     <div class="noticia-content">
+
       <div class="noticias-text">
         <h1>Notícias</h1>
-        <p>Ir para página de notícias</p>
+        <a href="">Ir para página de notícias</a>
       </div>
 
       <ul class="noticias-img">
         <li>
-          <img src="imagens/noticias-img/ValorantPublishing_PatchNotes_16x19_BR.webp" alt="">
+          <a href=""><img src="imagens/noticias-img/ValorantPublishing_PatchNotes_16x19_BR.webp" alt="noticia-1-patch notes"></a>
           <p>28/03/23 <span class="ponto">.</span> <span class="att">Atualizações do jogo</span></p>
-          <h3>NOTAS DA ATUALIZAÇÃO 6.06 DO VALORANT</h3>
+          <h3><a href="">NOTAS DA ATUALIZAÇÃO 6.06 DO VALORANT</a></h3>
         </li>
 
         <li>
-          <img src="imagens/noticias-img/TORNEIOS_DE_COMUNIDADE_VAL_CARD.webp" alt="">
+          <a href=""><img src="imagens/noticias-img/TORNEIOS_DE_COMUNIDADE_VAL_CARD.webp" alt="noticia-2-comunidade de valorant"></a>
           <p>28/03/23 <span class="ponto">.</span> <span class="att">Atualizações do jogo</span></p>
-          <h3>NOTAS DA ATUALIZAÇÃO 6.06 DO VALORANT</h3>
+          <h3><a href="">NOTAS DA ATUALIZAÇÃO 6.06 DO VALORANT</a></h3>
         </li>
 
         <li>
-          <img src="imagens/noticias-img/ValorantPublishing_PatchNotes_16x19_BR.webp" alt="">
+          <a href=""><img src="imagens/noticias-img/ValorantPublishing_PatchNotes_16x19_BR.webp" alt="noticia-3-patch notes"></a>
           <p>28/03/23 <span class="ponto">.</span> <span class="att">Atualizações do jogo</span></p>
-          <h3>NOTAS DA ATUALIZAÇÃO 6.06 DO VALORANT</h3>
+          <h3><a href="">NOTAS DA ATUALIZAÇÃO 6.06 DO VALORANT</a></h3>
         </li>
       </ul>
 
@@ -236,15 +287,16 @@
     </section>
 
     <section class="footer" aria-label="footer-content">
+
       <ul class="icon-footer">
-        <li><a href=""><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i></a></li>
-        <li><a href=""><i class="fa-brands fa-github fa-2xl" style="color: #ffffff;"></i></a></li>
-        <li><a href=""><i class="fa-brands fa-spotify fa-2xl" style="color: #ffffff;"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/pedro-ppassos/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl linkedin" style="color: #ffffff;"></i></a></li>
+        <li><a href="https://github.com/Pinheirops" target="_blank"><i class="fa-brands fa-github fa-2xl" style="color: #ffffff;"></i></a></li>
+        <li><a href="https://open.spotify.com/user/12149541570" target="_blank"><i class="fa-brands fa-spotify fa-2xl" style="color: #ffffff;"></i></a></li>
       </ul>
 
       <div class="footer-img">
-        <img class="riot" src="imagens/icon-footer/riot-games.png" alt="">
-        <img src="imagens/icon-footer/val-logo-small.png" alt="">
+        <img class="riot" src="imagens/icon-footer/riot-games.png" alt="riot logo">
+        <img src="imagens/icon-footer/val-logo-small.png" alt="valorant logo">
       </div>
 
       <ul class="footer-link">
@@ -253,7 +305,8 @@
         <li><a href="#">Prefêrencias de Cookies</a></li>
       </ul>
 
-      <p>Site desenvolvido por <span>Pedro Pinheiro Passos</span> para estudo.</p>
+      <p>Site desenvolvido por <span>Pedro Pinheiro Passos</span>.</p>
+      <a class="voltar" href="#topo">Voltar ao topo</a>
     </section>
 
   </footer>
