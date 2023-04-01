@@ -170,7 +170,13 @@
   }
 
   .noticias-img::-webkit-scrollbar {
-    display: none;
+    height: 3px;
+    background-color: white;
+    position: relative;
+  }
+  .noticias-img::-webkit-scrollbar-thumb{
+    background: linear-gradient(to right,var(--cor-3)50%, var(--cor-2) 50%);
+    
   }
 
   .noticias-img img {
@@ -185,6 +191,7 @@
 
   .noticias-img h3 {
     font-size: 1.3rem;
+    padding-bottom: 10px;
   }
 
   .noticias-text {

@@ -9,6 +9,7 @@
   gap: 5px;
   padding: 30px 0px;
   border-top: 3px solid rgba(24, 24, 24, 0.432);
+  position: relative;
 }
 
 .rodape a {
@@ -27,6 +28,32 @@
   background-color: rgba(240, 248, 255, 0.178);
   transition: 0.5s;
 }
+
+.rodape::before {
+  content: ">>";
+  color: var(--cor-3);
+  font-family: "valorant", var(--font-titulo), sans-serif;
+  width: 10px;
+  height: 10px;
+  top: -45px;
+  right: 30px;
+  position: absolute;
+  z-index: 3;
+}
+
+.rodape::after {
+  content: "<<";
+  color: var(--cor-3);
+  font-family: "valorant", var(--font-titulo), sans-serif;
+  width: 10px;
+  height: 10px;
+  top: -45px;
+  left: 30px;
+  position: absolute;
+  z-index: 3;
+}
+
+/* RESPONSIVO */
 
 @media (max-width: 670px) {
   .rodape {
