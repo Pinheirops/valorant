@@ -3,7 +3,7 @@
 <h3>Descrição</h3>
 <p>O desenvolvimento dessa página foi meu primeiro projeto criado do zero. Nesse projeto o usuário tem acesso á informações dos agentes disponíveis, mapas e notícias mais recentes. </p>
 <p>Conceitualmente também é possível criar conta ou fazer login e acessar página de download</p>
-<p><strong>Acessar Projeto: </strong>https://pinheirops.github.io/Valorant_/</p>
+<p><strong>Acessar Projeto: </strong>https://pinheirops.github.io/valorant/</p>
 <hr>
 <h3>Ferramentas Utilizadas</h3>
 <ul>
